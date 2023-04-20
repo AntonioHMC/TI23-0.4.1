@@ -1,0 +1,83 @@
+tr:nth-child(1) {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+
+th,
+td {
+  padding: 10px;
+  text-align: start;
+  font-size: 15px;
+}
+
+td:hover {
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+td:active {
+  transform: translate(5px);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+tr:nth-child(odd):not(:first-child) {
+  background-color: #adb1ad;
+
+}
+
+
+.youtube {
+  height: 30px;
+  fill: red;
+  cursor: pointer;
+}
+
+.youtube:hover {
+  transition: 0.2s;
+  height: 35px;
+}
+
+.youtube:active {
+  transform: translate(5px);
+}
+
+.insta {
+  height: 30px;
+  fill: #EA0C5F;
+  cursor: pointer;
+}
+
+.insta:hover {
+  transition: 0.2s;
+  height: 35px;
+}
+
+.insta:active {
+  transform: translate(5px);
+}
+
+.twitter {
+  height: 30px;
+  fill: #1A8CD8;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  transition: 0.2s;
+  height: 35px;
+}
+
+.twitter:active {
+  transform: translate(5px);
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
